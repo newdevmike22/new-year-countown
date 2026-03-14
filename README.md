@@ -16,8 +16,6 @@ https://new-years-countdown-app.netlify.app/
 
 Path: `./screenshots/countdown-screenshot.png`
 
-![New Year Countdown Screenshot](./screenshots/countdown-screenshot.png)
-
 ---
 
 ## ✨ Features
