@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background: #1f0742;
+  background: linear-gradient(90deg, rgba(31, 7, 66, 1) 0%, rgba(69, 30, 125, 1) 50%, rgba(122, 37, 245, 1) 100%);
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  font-family: cursive;
+}
+
+.container img {
+  width: 150px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: -20px;
+}
+
+h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 38px;
+  letter-spacing: 2px;
+  font-family: Afacad Flux;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.year {
+  font-size: 6em;
+  background: linear-gradient(40deg, #fff, #f7e48d, #ff8f05, #ff4603);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.8));
+  font-weight: bold;
+}
+
+.countdown {
+  margin: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  color: #fff;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown div {
+  margin: 0 15px;
+  font-size: 2.5em;
+  font-weight: 500;
+  margin-top: -25px;
+  position: relative;
+  text-align: center;
+  width: 100px;
+}
+
+.countdown div::before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  font-size: 0.35em;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  width: 100%;
+  height: 35px;
+}
+
+.countdown #day::before {
+  content: "Days";
+  font-family: Afacad Flux;
+  font-size: 16px;
+}
+
+.countdown #hour::before {
+  content: "Hours";
+  font-family: Afacad Flux;
+  font-size: 16px;
+}
+
+.countdown #minute::before {
+  content: "Minutes";
+  font-family: Afacad Flux;
+  font-size: 16px;
+}
+
+.countdown #second::before {
+  content: "Seconds";
+  font-family: Afacad Flux;
+  font-size: 16px;
+}
+
+.seconds {
+  color: #ffbc05;
+}
